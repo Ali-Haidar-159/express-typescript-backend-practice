@@ -1,0 +1,17 @@
+{
+  "name": "basic-node-js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build" : "tsc --watch" ,
+    "start": "nodemon ./dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/node": "^24.3.0",
+    "nodemon": "^3.1.10"
+  }
+}
